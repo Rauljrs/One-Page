@@ -56,7 +56,6 @@ hr {
 header div.navigation{
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 html,
@@ -162,6 +161,7 @@ nav.navbar ul li a::after {
     position: fixed;
     flex-direction: row;
     background-color: rgba(100, 100, 81, 0.6);
+    width: 100%;
   }
   header .logo-name {
     margin: 0 20px;

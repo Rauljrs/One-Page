@@ -161,6 +161,15 @@ header div.navigation {
     height: 17%;
 }
 
+@media (min-width: 360px)
+header div.navigation {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-bottom: 365px;
+    background-color: rgb(100,100,81,0.6);
+}
+
 @media (min-width: 760px) {
   header {
     flex-direction: row;

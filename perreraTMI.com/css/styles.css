@@ -239,7 +239,7 @@ header div.navigation {
 }
 
 section.double-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(58%, 1fr));
 }
 
